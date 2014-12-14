@@ -1,0 +1,567 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DE9E90AE1A3B52CB00C5BFA6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DE9E90AD1A3B52CB00C5BFA6 /* main.m */; };
+		DE9E90B11A3B52CB00C5BFA6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DE9E90B01A3B52CB00C5BFA6 /* AppDelegate.m */; };
+		DE9E90B41A3B52CB00C5BFA6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE9E90B31A3B52CB00C5BFA6 /* ViewController.m */; };
+		DE9E90B71A3B52CB00C5BFA6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE9E90B51A3B52CB00C5BFA6 /* Main.storyboard */; };
+		DE9E90B91A3B52CB00C5BFA6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE9E90B81A3B52CB00C5BFA6 /* Images.xcassets */; };
+		DE9E90BC1A3B52CB00C5BFA6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE9E90BA1A3B52CB00C5BFA6 /* LaunchScreen.xib */; };
+		DE9E90C81A3B52CB00C5BFA6 /* XmasCalendarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DE9E90C71A3B52CB00C5BFA6 /* XmasCalendarTests.m */; };
+		DE9E90F11A3B533600C5BFA6 /* sample1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DE9E90D21A3B533600C5BFA6 /* sample1.jpg */; };
+		DE9E90F21A3B533600C5BFA6 /* sample10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DE9E90D31A3B533600C5BFA6 /* sample10.jpg */; };
+		DE9E90F31A3B533600C5BFA6 /* sample11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DE9E90D41A3B533600C5BFA6 /* sample11.jpg */; };
+		DE9E90F41A3B533600C5BFA6 /* sample12.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DE9E90D51A3B533600C5BFA6 /* sample12.jpg */; };
+		DE9E90F51A3B533600C5BFA6 /* sample13.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DE9E90D61A3B533600C5BFA6 /* sample13.jpg */; };
+		DE9E90F61A3B533600C5BFA6 /* sample14.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DE9E90D71A3B533600C5BFA6 /* sample14.jpg */; };
+		DE9E90F71A3B533600C5BFA6 /* sample15.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DE9E90D81A3B533600C5BFA6 /* sample15.jpg */; };
+		DE9E90F81A3B533600C5BFA6 /* sample16.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DE9E90D91A3B533600C5BFA6 /* sample16.jpg */; };
+		DE9E90F91A3B533600C5BFA6 /* sample17.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DE9E90DA1A3B533600C5BFA6 /* sample17.jpg */; };
+		DE9E90FA1A3B533600C5BFA6 /* sample18.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DE9E90DB1A3B533600C5BFA6 /* sample18.jpg */; };
+		DE9E90FB1A3B533600C5BFA6 /* sample19.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DE9E90DC1A3B533600C5BFA6 /* sample19.jpg */; };
+		DE9E90FC1A3B533600C5BFA6 /* sample2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DE9E90DD1A3B533600C5BFA6 /* sample2.jpg */; };
+		DE9E90FD1A3B533600C5BFA6 /* sample20.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DE9E90DE1A3B533600C5BFA6 /* sample20.jpg */; };
+		DE9E90FE1A3B533600C5BFA6 /* sample21.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DE9E90DF1A3B533600C5BFA6 /* sample21.jpg */; };
+		DE9E90FF1A3B533600C5BFA6 /* sample22.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DE9E90E01A3B533600C5BFA6 /* sample22.jpg */; };
+		DE9E91001A3B533600C5BFA6 /* sample23.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DE9E90E11A3B533600C5BFA6 /* sample23.jpg */; };
+		DE9E91011A3B533600C5BFA6 /* sample24.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DE9E90E21A3B533600C5BFA6 /* sample24.jpg */; };
+		DE9E91021A3B533600C5BFA6 /* sample25.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DE9E90E31A3B533600C5BFA6 /* sample25.jpg */; };
+		DE9E91031A3B533600C5BFA6 /* sample26.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DE9E90E41A3B533600C5BFA6 /* sample26.jpg */; };
+		DE9E91041A3B533600C5BFA6 /* sample27.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DE9E90E51A3B533600C5BFA6 /* sample27.jpg */; };
+		DE9E91051A3B533600C5BFA6 /* sample28.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DE9E90E61A3B533600C5BFA6 /* sample28.jpg */; };
+		DE9E91061A3B533600C5BFA6 /* sample29.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DE9E90E71A3B533600C5BFA6 /* sample29.jpg */; };
+		DE9E91071A3B533600C5BFA6 /* sample3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DE9E90E81A3B533600C5BFA6 /* sample3.jpg */; };
+		DE9E91081A3B533600C5BFA6 /* sample30.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DE9E90E91A3B533600C5BFA6 /* sample30.jpg */; };
+		DE9E91091A3B533600C5BFA6 /* sample31.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DE9E90EA1A3B533600C5BFA6 /* sample31.jpg */; };
+		DE9E910A1A3B533600C5BFA6 /* sample4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DE9E90EB1A3B533600C5BFA6 /* sample4.jpg */; };
+		DE9E910B1A3B533600C5BFA6 /* sample5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DE9E90EC1A3B533600C5BFA6 /* sample5.jpg */; };
+		DE9E910C1A3B533600C5BFA6 /* sample6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DE9E90ED1A3B533600C5BFA6 /* sample6.jpg */; };
+		DE9E910D1A3B533600C5BFA6 /* sample7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DE9E90EE1A3B533600C5BFA6 /* sample7.jpg */; };
+		DE9E910E1A3B533600C5BFA6 /* sample8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DE9E90EF1A3B533600C5BFA6 /* sample8.jpg */; };
+		DE9E910F1A3B533600C5BFA6 /* sample9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DE9E90F01A3B533600C5BFA6 /* sample9.jpg */; };
+		DE9E91121A3BDF5F00C5BFA6 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE9E91111A3BDF5F00C5BFA6 /* DetailViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DE9E90C21A3B52CB00C5BFA6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE9E90A01A3B52CB00C5BFA6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE9E90A71A3B52CB00C5BFA6;
+			remoteInfo = XmasCalendar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DE9E90A81A3B52CB00C5BFA6 /* XmasCalendar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XmasCalendar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE9E90AC1A3B52CB00C5BFA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE9E90AD1A3B52CB00C5BFA6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DE9E90AF1A3B52CB00C5BFA6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DE9E90B01A3B52CB00C5BFA6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DE9E90B21A3B52CB00C5BFA6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DE9E90B31A3B52CB00C5BFA6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DE9E90B61A3B52CB00C5BFA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DE9E90B81A3B52CB00C5BFA6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DE9E90BB1A3B52CB00C5BFA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		DE9E90C11A3B52CB00C5BFA6 /* XmasCalendarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XmasCalendarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE9E90C61A3B52CB00C5BFA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE9E90C71A3B52CB00C5BFA6 /* XmasCalendarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XmasCalendarTests.m; sourceTree = "<group>"; };
+		DE9E90D21A3B533600C5BFA6 /* sample1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sample1.jpg; sourceTree = "<group>"; };
+		DE9E90D31A3B533600C5BFA6 /* sample10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sample10.jpg; sourceTree = "<group>"; };
+		DE9E90D41A3B533600C5BFA6 /* sample11.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sample11.jpg; sourceTree = "<group>"; };
+		DE9E90D51A3B533600C5BFA6 /* sample12.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sample12.jpg; sourceTree = "<group>"; };
+		DE9E90D61A3B533600C5BFA6 /* sample13.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sample13.jpg; sourceTree = "<group>"; };
+		DE9E90D71A3B533600C5BFA6 /* sample14.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sample14.jpg; sourceTree = "<group>"; };
+		DE9E90D81A3B533600C5BFA6 /* sample15.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sample15.jpg; sourceTree = "<group>"; };
+		DE9E90D91A3B533600C5BFA6 /* sample16.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sample16.jpg; sourceTree = "<group>"; };
+		DE9E90DA1A3B533600C5BFA6 /* sample17.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sample17.jpg; sourceTree = "<group>"; };
+		DE9E90DB1A3B533600C5BFA6 /* sample18.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sample18.jpg; sourceTree = "<group>"; };
+		DE9E90DC1A3B533600C5BFA6 /* sample19.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sample19.jpg; sourceTree = "<group>"; };
+		DE9E90DD1A3B533600C5BFA6 /* sample2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sample2.jpg; sourceTree = "<group>"; };
+		DE9E90DE1A3B533600C5BFA6 /* sample20.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sample20.jpg; sourceTree = "<group>"; };
+		DE9E90DF1A3B533600C5BFA6 /* sample21.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sample21.jpg; sourceTree = "<group>"; };
+		DE9E90E01A3B533600C5BFA6 /* sample22.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sample22.jpg; sourceTree = "<group>"; };
+		DE9E90E11A3B533600C5BFA6 /* sample23.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sample23.jpg; sourceTree = "<group>"; };
+		DE9E90E21A3B533600C5BFA6 /* sample24.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sample24.jpg; sourceTree = "<group>"; };
+		DE9E90E31A3B533600C5BFA6 /* sample25.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sample25.jpg; sourceTree = "<group>"; };
+		DE9E90E41A3B533600C5BFA6 /* sample26.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sample26.jpg; sourceTree = "<group>"; };
+		DE9E90E51A3B533600C5BFA6 /* sample27.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sample27.jpg; sourceTree = "<group>"; };
+		DE9E90E61A3B533600C5BFA6 /* sample28.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sample28.jpg; sourceTree = "<group>"; };
+		DE9E90E71A3B533600C5BFA6 /* sample29.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sample29.jpg; sourceTree = "<group>"; };
+		DE9E90E81A3B533600C5BFA6 /* sample3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sample3.jpg; sourceTree = "<group>"; };
+		DE9E90E91A3B533600C5BFA6 /* sample30.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sample30.jpg; sourceTree = "<group>"; };
+		DE9E90EA1A3B533600C5BFA6 /* sample31.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sample31.jpg; sourceTree = "<group>"; };
+		DE9E90EB1A3B533600C5BFA6 /* sample4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sample4.jpg; sourceTree = "<group>"; };
+		DE9E90EC1A3B533600C5BFA6 /* sample5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sample5.jpg; sourceTree = "<group>"; };
+		DE9E90ED1A3B533600C5BFA6 /* sample6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sample6.jpg; sourceTree = "<group>"; };
+		DE9E90EE1A3B533600C5BFA6 /* sample7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sample7.jpg; sourceTree = "<group>"; };
+		DE9E90EF1A3B533600C5BFA6 /* sample8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sample8.jpg; sourceTree = "<group>"; };
+		DE9E90F01A3B533600C5BFA6 /* sample9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sample9.jpg; sourceTree = "<group>"; };
+		DE9E91101A3BDF5F00C5BFA6 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		DE9E91111A3BDF5F00C5BFA6 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DE9E90A51A3B52CB00C5BFA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE9E90BE1A3B52CB00C5BFA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DE9E909F1A3B52CB00C5BFA6 = {
+			isa = PBXGroup;
+			children = (
+				DE9E90AA1A3B52CB00C5BFA6 /* XmasCalendar */,
+				DE9E90C41A3B52CB00C5BFA6 /* XmasCalendarTests */,
+				DE9E90A91A3B52CB00C5BFA6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DE9E90A91A3B52CB00C5BFA6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE9E90A81A3B52CB00C5BFA6 /* XmasCalendar.app */,
+				DE9E90C11A3B52CB00C5BFA6 /* XmasCalendarTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DE9E90AA1A3B52CB00C5BFA6 /* XmasCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				DE9E90D11A3B533600C5BFA6 /* original_image */,
+				DE9E90AF1A3B52CB00C5BFA6 /* AppDelegate.h */,
+				DE9E90B01A3B52CB00C5BFA6 /* AppDelegate.m */,
+				DE9E90B21A3B52CB00C5BFA6 /* ViewController.h */,
+				DE9E90B31A3B52CB00C5BFA6 /* ViewController.m */,
+				DE9E91101A3BDF5F00C5BFA6 /* DetailViewController.h */,
+				DE9E91111A3BDF5F00C5BFA6 /* DetailViewController.m */,
+				DE9E90B51A3B52CB00C5BFA6 /* Main.storyboard */,
+				DE9E90B81A3B52CB00C5BFA6 /* Images.xcassets */,
+				DE9E90BA1A3B52CB00C5BFA6 /* LaunchScreen.xib */,
+				DE9E90AB1A3B52CB00C5BFA6 /* Supporting Files */,
+			);
+			path = XmasCalendar;
+			sourceTree = "<group>";
+		};
+		DE9E90AB1A3B52CB00C5BFA6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DE9E90AC1A3B52CB00C5BFA6 /* Info.plist */,
+				DE9E90AD1A3B52CB00C5BFA6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DE9E90C41A3B52CB00C5BFA6 /* XmasCalendarTests */ = {
+			isa = PBXGroup;
+			children = (
+				DE9E90C71A3B52CB00C5BFA6 /* XmasCalendarTests.m */,
+				DE9E90C51A3B52CB00C5BFA6 /* Supporting Files */,
+			);
+			path = XmasCalendarTests;
+			sourceTree = "<group>";
+		};
+		DE9E90C51A3B52CB00C5BFA6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DE9E90C61A3B52CB00C5BFA6 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DE9E90D11A3B533600C5BFA6 /* original_image */ = {
+			isa = PBXGroup;
+			children = (
+				DE9E90D21A3B533600C5BFA6 /* sample1.jpg */,
+				DE9E90D31A3B533600C5BFA6 /* sample10.jpg */,
+				DE9E90D41A3B533600C5BFA6 /* sample11.jpg */,
+				DE9E90D51A3B533600C5BFA6 /* sample12.jpg */,
+				DE9E90D61A3B533600C5BFA6 /* sample13.jpg */,
+				DE9E90D71A3B533600C5BFA6 /* sample14.jpg */,
+				DE9E90D81A3B533600C5BFA6 /* sample15.jpg */,
+				DE9E90D91A3B533600C5BFA6 /* sample16.jpg */,
+				DE9E90DA1A3B533600C5BFA6 /* sample17.jpg */,
+				DE9E90DB1A3B533600C5BFA6 /* sample18.jpg */,
+				DE9E90DC1A3B533600C5BFA6 /* sample19.jpg */,
+				DE9E90DD1A3B533600C5BFA6 /* sample2.jpg */,
+				DE9E90DE1A3B533600C5BFA6 /* sample20.jpg */,
+				DE9E90DF1A3B533600C5BFA6 /* sample21.jpg */,
+				DE9E90E01A3B533600C5BFA6 /* sample22.jpg */,
+				DE9E90E11A3B533600C5BFA6 /* sample23.jpg */,
+				DE9E90E21A3B533600C5BFA6 /* sample24.jpg */,
+				DE9E90E31A3B533600C5BFA6 /* sample25.jpg */,
+				DE9E90E41A3B533600C5BFA6 /* sample26.jpg */,
+				DE9E90E51A3B533600C5BFA6 /* sample27.jpg */,
+				DE9E90E61A3B533600C5BFA6 /* sample28.jpg */,
+				DE9E90E71A3B533600C5BFA6 /* sample29.jpg */,
+				DE9E90E81A3B533600C5BFA6 /* sample3.jpg */,
+				DE9E90E91A3B533600C5BFA6 /* sample30.jpg */,
+				DE9E90EA1A3B533600C5BFA6 /* sample31.jpg */,
+				DE9E90EB1A3B533600C5BFA6 /* sample4.jpg */,
+				DE9E90EC1A3B533600C5BFA6 /* sample5.jpg */,
+				DE9E90ED1A3B533600C5BFA6 /* sample6.jpg */,
+				DE9E90EE1A3B533600C5BFA6 /* sample7.jpg */,
+				DE9E90EF1A3B533600C5BFA6 /* sample8.jpg */,
+				DE9E90F01A3B533600C5BFA6 /* sample9.jpg */,
+			);
+			path = original_image;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DE9E90A71A3B52CB00C5BFA6 /* XmasCalendar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE9E90CB1A3B52CB00C5BFA6 /* Build configuration list for PBXNativeTarget "XmasCalendar" */;
+			buildPhases = (
+				DE9E90A41A3B52CB00C5BFA6 /* Sources */,
+				DE9E90A51A3B52CB00C5BFA6 /* Frameworks */,
+				DE9E90A61A3B52CB00C5BFA6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XmasCalendar;
+			productName = XmasCalendar;
+			productReference = DE9E90A81A3B52CB00C5BFA6 /* XmasCalendar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DE9E90C01A3B52CB00C5BFA6 /* XmasCalendarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE9E90CE1A3B52CB00C5BFA6 /* Build configuration list for PBXNativeTarget "XmasCalendarTests" */;
+			buildPhases = (
+				DE9E90BD1A3B52CB00C5BFA6 /* Sources */,
+				DE9E90BE1A3B52CB00C5BFA6 /* Frameworks */,
+				DE9E90BF1A3B52CB00C5BFA6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE9E90C31A3B52CB00C5BFA6 /* PBXTargetDependency */,
+			);
+			name = XmasCalendarTests;
+			productName = XmasCalendarTests;
+			productReference = DE9E90C11A3B52CB00C5BFA6 /* XmasCalendarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DE9E90A01A3B52CB00C5BFA6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = just1factory;
+				TargetAttributes = {
+					DE9E90A71A3B52CB00C5BFA6 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					DE9E90C01A3B52CB00C5BFA6 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = DE9E90A71A3B52CB00C5BFA6;
+					};
+				};
+			};
+			buildConfigurationList = DE9E90A31A3B52CB00C5BFA6 /* Build configuration list for PBXProject "XmasCalendar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DE9E909F1A3B52CB00C5BFA6;
+			productRefGroup = DE9E90A91A3B52CB00C5BFA6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DE9E90A71A3B52CB00C5BFA6 /* XmasCalendar */,
+				DE9E90C01A3B52CB00C5BFA6 /* XmasCalendarTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DE9E90A61A3B52CB00C5BFA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE9E90B71A3B52CB00C5BFA6 /* Main.storyboard in Resources */,
+				DE9E91021A3B533600C5BFA6 /* sample25.jpg in Resources */,
+				DE9E90F91A3B533600C5BFA6 /* sample17.jpg in Resources */,
+				DE9E90FC1A3B533600C5BFA6 /* sample2.jpg in Resources */,
+				DE9E91061A3B533600C5BFA6 /* sample29.jpg in Resources */,
+				DE9E90F51A3B533600C5BFA6 /* sample13.jpg in Resources */,
+				DE9E90F31A3B533600C5BFA6 /* sample11.jpg in Resources */,
+				DE9E90F11A3B533600C5BFA6 /* sample1.jpg in Resources */,
+				DE9E91051A3B533600C5BFA6 /* sample28.jpg in Resources */,
+				DE9E91031A3B533600C5BFA6 /* sample26.jpg in Resources */,
+				DE9E90FE1A3B533600C5BFA6 /* sample21.jpg in Resources */,
+				DE9E91001A3B533600C5BFA6 /* sample23.jpg in Resources */,
+				DE9E90FF1A3B533600C5BFA6 /* sample22.jpg in Resources */,
+				DE9E910C1A3B533600C5BFA6 /* sample6.jpg in Resources */,
+				DE9E90FB1A3B533600C5BFA6 /* sample19.jpg in Resources */,
+				DE9E90FA1A3B533600C5BFA6 /* sample18.jpg in Resources */,
+				DE9E90BC1A3B52CB00C5BFA6 /* LaunchScreen.xib in Resources */,
+				DE9E91081A3B533600C5BFA6 /* sample30.jpg in Resources */,
+				DE9E90F81A3B533600C5BFA6 /* sample16.jpg in Resources */,
+				DE9E910F1A3B533600C5BFA6 /* sample9.jpg in Resources */,
+				DE9E910D1A3B533600C5BFA6 /* sample7.jpg in Resources */,
+				DE9E91041A3B533600C5BFA6 /* sample27.jpg in Resources */,
+				DE9E90B91A3B52CB00C5BFA6 /* Images.xcassets in Resources */,
+				DE9E91071A3B533600C5BFA6 /* sample3.jpg in Resources */,
+				DE9E910E1A3B533600C5BFA6 /* sample8.jpg in Resources */,
+				DE9E90F41A3B533600C5BFA6 /* sample12.jpg in Resources */,
+				DE9E90F61A3B533600C5BFA6 /* sample14.jpg in Resources */,
+				DE9E90F21A3B533600C5BFA6 /* sample10.jpg in Resources */,
+				DE9E90F71A3B533600C5BFA6 /* sample15.jpg in Resources */,
+				DE9E91091A3B533600C5BFA6 /* sample31.jpg in Resources */,
+				DE9E90FD1A3B533600C5BFA6 /* sample20.jpg in Resources */,
+				DE9E910A1A3B533600C5BFA6 /* sample4.jpg in Resources */,
+				DE9E91011A3B533600C5BFA6 /* sample24.jpg in Resources */,
+				DE9E910B1A3B533600C5BFA6 /* sample5.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE9E90BF1A3B52CB00C5BFA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DE9E90A41A3B52CB00C5BFA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE9E90B41A3B52CB00C5BFA6 /* ViewController.m in Sources */,
+				DE9E90B11A3B52CB00C5BFA6 /* AppDelegate.m in Sources */,
+				DE9E90AE1A3B52CB00C5BFA6 /* main.m in Sources */,
+				DE9E91121A3BDF5F00C5BFA6 /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE9E90BD1A3B52CB00C5BFA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE9E90C81A3B52CB00C5BFA6 /* XmasCalendarTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DE9E90C31A3B52CB00C5BFA6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE9E90A71A3B52CB00C5BFA6 /* XmasCalendar */;
+			targetProxy = DE9E90C21A3B52CB00C5BFA6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DE9E90B51A3B52CB00C5BFA6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE9E90B61A3B52CB00C5BFA6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DE9E90BA1A3B52CB00C5BFA6 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE9E90BB1A3B52CB00C5BFA6 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DE9E90C91A3B52CB00C5BFA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DE9E90CA1A3B52CB00C5BFA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DE9E90CC1A3B52CB00C5BFA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = XmasCalendar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DE9E90CD1A3B52CB00C5BFA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = XmasCalendar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DE9E90CF1A3B52CB00C5BFA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = XmasCalendarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XmasCalendar.app/XmasCalendar";
+			};
+			name = Debug;
+		};
+		DE9E90D01A3B52CB00C5BFA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = XmasCalendarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XmasCalendar.app/XmasCalendar";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DE9E90A31A3B52CB00C5BFA6 /* Build configuration list for PBXProject "XmasCalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE9E90C91A3B52CB00C5BFA6 /* Debug */,
+				DE9E90CA1A3B52CB00C5BFA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE9E90CB1A3B52CB00C5BFA6 /* Build configuration list for PBXNativeTarget "XmasCalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE9E90CC1A3B52CB00C5BFA6 /* Debug */,
+				DE9E90CD1A3B52CB00C5BFA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE9E90CE1A3B52CB00C5BFA6 /* Build configuration list for PBXNativeTarget "XmasCalendarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE9E90CF1A3B52CB00C5BFA6 /* Debug */,
+				DE9E90D01A3B52CB00C5BFA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DE9E90A01A3B52CB00C5BFA6 /* Project object */;
+}
